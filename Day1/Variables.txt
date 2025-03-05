@@ -1,1 +1,11 @@
+review1.cs
+too many nesting, change the code to public bool IsShopOpen(string day)
+{
+    if (string.IsNullOrEmpty(day))
+    {
+        return false;
+    }
 
+    var openDays = new HashSet<string> { "friday", "saturday", "sunday" };
+    return openDays.Contains(day.ToLower());
+}
