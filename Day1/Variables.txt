@@ -32,3 +32,22 @@ public long Fibonacci(int n)
 
     return Fibonacci(n - 1) + Fibonacci(n - 2);
 }
+
+review4.cs
+
+rename the varibale l to location
+change to foreach loop
+change the method names to correct one
+declare and use immediately  instead of assigning and keeping it in the begining, variable li.
+rename li to item
+
+review5.cs
+
+No magic number usage and remove comment
+
+Review6.cs
+Car is redundant in the public property
+
+review9.cs
+default parameter
+
